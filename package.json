@@ -1,0 +1,51 @@
+{
+  "name": "fffrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "toolbox": "react-toolbox-themr",
+    "next": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.15.5",
+    "next": "^3.2.2",
+    "nprogress": "^0.2.0",
+    "react": "^15.6.2",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-dom": "^15.6.2",
+    "react-headroom": "^2.2.1",
+    "react-toolbox": "^2.0.0-beta.12",
+    "typography": "^0.14.0",
+    "typography-plugin-code": "^0.14.0",
+    "typography-react": "^0.10.4",
+    "typography-theme-fairy-gates": "^0.14.0",
+    "typography-theme-noriega": "^0.14.0"
+  },
+  "devDependencies": {
+    "react-toolbox-themr": "^1.0.2"
+  },
+  "reactToolbox": {
+    "include": [
+      "BUTTON",
+      "DATE_PICKER",
+      "CHIP",
+      "CHECKBOX",
+      "APP_BAR"
+    ],
+    "customProperties": {
+      "animation-duration": "0.3s",
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary-contrast": "var(--color-dark-contrast)",
+      "color-accent-contrast": "var(--color-dark-contrast)"
+    },
+    "output": "static"
+  }
+}
